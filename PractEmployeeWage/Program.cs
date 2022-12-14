@@ -11,6 +11,8 @@ namespace PractEmployeeWage
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Employee Wage Computation Program");
+            Employeecheck.checkattendence();
+            Console.ReadLine();
 
         }
     }
